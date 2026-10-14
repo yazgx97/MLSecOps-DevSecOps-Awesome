@@ -3,7 +3,7 @@ Flask_Cors==5.0.0
 matplotlib==3.6.2
 numpy==1.23.5
 tensorflow==2.13.0
-sentence_transformers==2.2.2
+sentence_transformers==5.6.0
 waitress==2.1.2
 python-dotenv==1.0.0
 kafka-python==2.0.2
