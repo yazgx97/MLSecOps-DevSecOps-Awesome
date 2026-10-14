@@ -38,17 +38,23 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
 
 ### Articles
 
+- [Visualizing Secure MLOps (MLSecOps): A Practical Guide for Building Robust AI/ML Pipeline Security](https://openssf.org/blog/2025/08/05/visualizing-secure-mlops-mlsecops-a-practical-guide-for-building-robust-ai-ml-pipeline-security/) - OpenSSF whitepaper walkthrough: layer-by-layer MLSecOps using SLSA, Sigstore, and Scorecard.
+- [How River takes security work from a fix to merge](https://shopify.engineering/river-vulnerability-remediation) - Shopify’s agentic remediation loop from finding through merge and evidence checks (2026).
+- [Building an agentic harness that outlasts the model](https://shopify.engineering/building-an-agentic-harness-that-outlasts-the-model) - Shopify Application Security on multi-agent vuln discovery, test oracles, and PR-ready fixes.
+- [MLSecOps: Protecting the AI/ML Lifecycle in telecom](https://www.ericsson.com/en/reports-and-papers/white-papers/mlsecops-protecting-the-ai-ml-lifecycle-in-telecom) - Ericsson on secure-by-design MLSecOps for telecom AI/ML lifecycles.
 - [MLSecOps Practical Reference Guide](https://github.com/MHaghighian/MLSecOps) - Open-source AI and ML security handbook.
 - [How MLSecOps Can Reshape AI Security](https://www.forbes.com/sites/forbestechcouncil/2023/12/04/how-mlsecops-can-reshape-ai-security/)
 - [MLSecOps Explained: Building Security Into ML & AI](https://www.brighttalk.com/business/products/custom-webinars-sponsorable-events/originals-episode/SBA56-mlsecops-explained-building-security-into-ml-ai)
 - [The Comprehensive Evolution Of DevSecOps In Modern Software Ecosystems](https://www.forbes.com/sites/forbestechcouncil/2024/03/06/the-comprehensive-evolution-of-devsecops-in-modern-software-ecosystems/)
-- [Deploying a Netflix Clone on EKS Using a DevSecOps Pipeline](https://medium.com/@cloudwithmustafa/deploying-a-netflix-clone-on-eks-using-a-devsecops-pipeline-9ef84d5f952b)
-- [DevSecOps (DevOps) Project: Deploying a Petshop Java-Based Application with CI/CD, Docker, and Kubernetes](https://medium.com/@21harsh12/devsecops-devops-project-deploying-a-petshop-java-based-application-with-ci-cd-docker-and-e737d3a5501b)
 
 ### Papers
 
 | Title | Abstract |
 | --- | --- |
+| [Attesting LLM Pipelines: Enforcing Verifiable Training and Release Claims](https://arxiv.org/abs/2603.28988) | Modern LLM systems assemble third-party weights, adapters, datasets, packages, and images through automated pipelines, exposing them to compromised dependencies, malicious hub artifacts, unsafe deserialization, forged provenance, and backdoored models. Training and release claims are rarely cryptographically bound to the artifacts they describe. This work proposes an attestation-aware promotion gate that verifies claim evidence, enforces safe loading and static scanning, applies secure-by-default deployment constraints, and optionally ingests runtime signals before artifacts enter trusted training or deployment environments. |
+| [SecMLOps: A Comprehensive Framework for Integrating Security Throughout the MLOps Lifecycle](https://arxiv.org/abs/2601.10848) | Builds Secure Machine Learning Operations (SecMLOps) into a lifecycle framework that embeds security from design through deployment and continuous monitoring. Using a PTPGC lens (People, Technology, Processes, Governance, Compliance), it defines security roles and phase-specific activities, then evaluates trade-offs on an advanced pedestrian detection system use case to show how practitioners can balance security controls against operational performance. |
+| [Towards Secure MLOps: Surveying Attacks, Mitigation Strategies, and Research Challenges](https://arxiv.org/abs/2506.02032) | Applies MITRE ATLAS plus white/grey literature to map attacks across MLOps phases, introduces a threat model spanning attacker knowledge and capability, and pairs each attack class with early-stage mitigations. Includes red-team and incident examples, then highlights research gaps for securing unified MLOps ecosystems against credential compromise, data poisoning, and pipeline misconfiguration. |
+| [Atlas: A Framework for ML Lifecycle Provenance & Transparency](https://arxiv.org/abs/2502.19567) | Addresses data poisoning and supply-chain risk in open ML datasets and models by enabling fully attestable ML pipelines. Atlas combines open provenance specifications, trusted hardware, and transparency logs to record artifact authenticity and end-to-end lineage while preserving confidentiality, with a prototype evaluated on two case-study pipelines. |
 | [Integrating MLSecOps in the Biotechnology Industry 5.0](https://arxiv.org/abs/2402.07967) | Biotechnology Industry 5.0 is advancing with the integration of cutting-edge technologies like Machine Learning (ML), the Internet Of Things (IoT), and cloud computing. It is no surprise that an industry that utilizes data from customers and can alter their lives is a target of a variety of attacks. This chapter provides a perspective of how Machine Learning Security Operations (MLSecOps) can help secure the biotechnology Industry 5.0. The chapter provides an analysis of the threats in the biotechnology Industry 5.0 and how ML algorithms can help secure with industry best practices. This chapter explores the scope of MLSecOps in the biotechnology Industry 5.0, highlighting how crucial it is to comply with current regulatory frameworks. With biotechnology Industry 5.0 developing innovative solutions in healthcare, supply chain management, biomanufacturing, pharmaceuticals sectors, and more, the chapter also discusses the MLSecOps best practices that industry and enterprises should follow while also considering ethical responsibilities. Overall, the chapter provides a discussion of how to integrate MLSecOps into the design, deployment, and regulation of the processes in biotechnology Industry 5.0. |
 | [Security Risks and Best Practices of MLOps: A Multivocal Literature Review](https://ceur-ws.org/Vol-3731/paper13.pdf) | MLOps and tools are designed to streamline the deployment practices and maintenance of production grade ML-enabled systems. As with any software workflow and component, they are susceptible to various security threats. In this paper, we present a Multivocal Literature Review (MLR) aimed at gauging current knowledge of the risks associated with the implementation of MLOps processes and the best practices recommended for their mitigation. By analyzing a varied range of sources of academic papers and non-peer-reviewed technical articles, we synthesize 15 risks and 27 related best practices, which we categorize into 8 themes. We find that while some of the risks are known security threats that can be mitigated through well-established cybersecurity best practices, others represent MLOps-specific risks, mostly related to the management of data and models. |
 | [Backdoor Attacks to Deep Neural Networks: A Survey of the Literature, Challenges, and Future Research Directions](https://ieeexplore.ieee.org/abstract/document/10403914) | Deep neural network (DNN) classifiers are potent instruments that can be used in various security-sensitive applications. Still, they are dangerous to certain attacks that impede or distort their learning process. For example, backdoor attacks involve polluting the DNN learning set with a few samples from one or more source classes, which are then labeled as target classes by an attacker. Even if the DNN is trained on clean samples with no backdoors, this attack will still be successful if a backdoor pattern exists in the training data. Backdoor attacks are difficult to spot and can be used to make the DNN behave maliciously, depending on the target selected by the attacker. In this study, we survey the literature and highlight the latest advances in backdoor attack strategies and defense mechanisms. We finalize the discussion on challenges and open issues, as well as future research opportunities. |
@@ -406,11 +412,17 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
 
 ## Best Practices
 
+- [OpenSSF Visualizing Secure MLOps (MLSecOps) Whitepaper](https://openssf.org/wp-content/uploads/2025/08/OpenSSF_MLSecOps_Whitepaper.pdf) - Practical layer-by-layer guide for securing AI/ML pipelines with OpenSSF tooling.
+- [OWASP Top 10 for Agentic Applications 2026](https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/) - Peer-reviewed risks and mitigations for autonomous AI agents.
+- [NIST AI RMF Generative AI Profile (NIST.AI.600-1)](https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf) - Companion profile for governing, mapping, measuring, and managing GenAI risk.
+- [CSA Agentic Secure Development Lifecycle (ASDL)](https://labs.cloudsecurityalliance.org/agentic/agentic-secure-development-lifecycle-v1/) - Five-phase SDL for agent systems informed by MAESTRO and OWASP Agentic Top 10.
+- [CSA AI Controls Matrix (AICM)](https://cloudsecurityalliance.org/artifacts/ai-controls-matrix) - Control set for AI system security and governance.
 - [OWASP LLMSVS](https://owasp.org/www-project-llm-verification-standard/)
 - [OWASP Top 10 for Large Language Model Applications](https://owasp.org/www-project-top-10-for-large-language-model-applications/)
 - [OWASP Machine Learning Security Top Ten](https://owasp.org/www-project-machine-learning-security-top-10/)
 - [MITRE ATLAS™ (Adversarial Threat Landscape for Artificial-Intelligence Systems)](https://atlas.mitre.org/)
 - [OWASP DevSecOps](https://devsecops.owasp.org/)
+- [OWASP DevSecOps Verification Standard (DSOVS)](https://owasp.org/www-project-devsecops-verification-standard/)
 - [OWASP Devsecops Maturity Model](https://owasp.org/www-project-devsecops-maturity-model/)
 - [OWASP DevSecOps Guideline](https://owasp.org/www-project-devsecops-guideline/)
 - [DevSecOps-Playbook-Securestack](https://github.com/6mile/DevSecOps-Playbook)
@@ -418,16 +430,23 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
 
 ## Case Studies
 
-- [Automating Application Security to Protect Corporate Data Assets at the Speed of Business](https://www.contrastsecurity.com/customer-success/asg-technologies)
+- [How River takes security work from a fix to merge (Shopify)](https://shopify.engineering/river-vulnerability-remediation) - Agentic vulnerability remediation from Slack finding to verified merge.
+- [Building an agentic harness that outlasts the model (Shopify)](https://shopify.engineering/building-an-agentic-harness-that-outlasts-the-model) - Multi-agent AppSec scanning with test oracles across a large Rails estate.
+- [Defending the Open Source Supply Chain in a New Regulatory Era (Red Hat / OpenSSF)](https://openssf.org/blog/2026/03/02/case-study-defending-the-open-source-supply-chain-in-a-new-regulatory-era/) - Aligning OpenSSF baselines and SLSA with EU CRA compliance.
+- [Kusari’s Implementation of OpenSSF Tools and Services](https://openssf.org/blog/2024/10/24/case-study-kusaris-implementation-of-openssf-tools-and-services/) - GUAC, Scorecard, AllStar, SLSA L3, OpenVEX, and S2C2F in production supply-chain defense.
+- [Verizon NBI: Sigstore for Provenance and Customer Confidence](https://blog.sigstore.dev/security-by-default-how-verizon-new-business-incubation-uses-sigstore-to-demonstrate-provenance-7beed5714738/) - Automating SLSA provenance signing/verification in enterprise DevOps pipelines.
+- [Large scale transformation with DevSecOps (UKHSA)](https://www.capacitas.co.uk/ukhsa-case-study)
 - [Enhancing the GuardRails solution](https://maddevs.io/case-studies/guardrails/)
-- [DevOps in Action: Real-world Case Studies](https://medium.com/@vinodvamanbhat/devops-in-action-real-world-case-studies-db7907149814)
-- [Large scale transformation with DevSecOps](https://www.capacitas.co.uk/ukhsa-case-study)
 
 ## Community
 
+- [OWASP GenAI Security Project](https://genai.owasp.org/) - Global community for GenAI and agentic application security guidance.
+- [OpenSSF AI/ML Security](https://github.com/ossf/ai-ml-security) - OpenSSF working material for securing AI/ML systems and pipelines.
+- [OpenSSF Working Groups](https://openssf.org/community/openssf-working-groups/) - SLSA, Sigstore, Scorecard, and related supply-chain security communities.
+- [Cloud Security Alliance AI Working Group](https://cloudsecurityalliance.org/research/working-groups/artificial-intelligence) - AI security research, AICM, and agentic guidance.
 - [MLSecOps Community](https://community.mlsecops.com/)
-- [DevSecOps](https://dev.to/t/devsecops)
-- [DevSecCon](https://www.devseccon.com/)
+- [OWASP Slack](https://owasp.org/slack/invite) - Chapters and project channels, including DevSecOps / DSOVS discussion.
+- [DevSecOps on DEV](https://dev.to/t/devsecops)
 
 ## Contribution
 
