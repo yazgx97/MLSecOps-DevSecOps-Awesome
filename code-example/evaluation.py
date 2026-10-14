@@ -1,9 +1,12 @@
-import numpy as np
+import sys
+from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent / "docker-image"))
+
 import pandas as pd
-from keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
-from sklearn.preprocessing import LabelBinarizer
 from keras.utils import to_categorical
+from preprocess import pad_sequences
 
 # Load evaluation dataset from CSV file
 eval_data = pd.read_csv('/tmp/dataset/dataset-evaluation.csv')

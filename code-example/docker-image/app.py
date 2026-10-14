@@ -1,9 +1,8 @@
 from flask import Flask, request, jsonify
-import numpy as np
-from keras.preprocessing.sequence import pad_sequences
 from keras.models import load_model
 import pickle
 from waitress import serve
+from preprocess import pad_sequences
 
 app = Flask(__name__)
 
