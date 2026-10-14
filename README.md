@@ -192,7 +192,7 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
         <td>Sonatype Nexus Repository</td>
     </tr>
     <tr>
-      <td rowspan="35">DevSecOps</td>
+      <td rowspan="36">DevSecOps</td>
       <td rowspan="3">Stage 1</td>
       <td><a href="https://pre-commit.com/">Pre-Commit Hook Scans</td>
       <td>A framework for managing and maintaining multi-language pre-commit hooks.</td>
@@ -266,7 +266,7 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
         <td>Docker buildx build.</td>
     </tr>
     <tr>
-        <td rowspan="5">Stage 6</td>
+        <td rowspan="6">Stage 6</td>
         <td><a href="https://docs.snyk.io/scan-using-snyk/snyk-container/scan-container-images">Synk</a></td>
         <td>Snyk Container helps you find and fix vulnerabilities in container images, based on container registry scans.</td>
     </tr>
@@ -285,6 +285,10 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
     <tr>
         <td><a href="https://www.zaproxy.org/">OWASP ZAP</a></td>
         <td>ZAP is a free and open source web application scanner that can help you find vulnerabilities and test your web applications.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/ASCIT31/Dark-Moon">Darkmoon</a></td>
+        <td>Open-source (GPLv3) autonomous AI penetration-testing tool: 50 specialist agents, 140+ offensive tools over MCP, and a dedicated LLM-security agent for the OWASP LLM Top 10; runs DAST/pentest in CI on a local (Ollama/llama.cpp) or cloud LLM.</td>
     </tr>
     <tr>
         <td rowspan="1">Stage 7</td>
