@@ -277,7 +277,7 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
         <td>Docker buildx build.</td>
     </tr>
     <tr>
-        <td rowspan="6">Stage 6</td>
+        <td rowspan="8">Stage 6</td>
         <td><a href="https://docs.snyk.io/scan-using-snyk/snyk-container/scan-container-images">Synk</a></td>
         <td>Snyk Container helps you find and fix vulnerabilities in container images, based on container registry scans.</td>
     </tr>
@@ -300,6 +300,14 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
     <tr>
         <td><a href="https://github.com/ASCIT31/Dark-Moon">Darkmoon</a></td>
         <td>Open-source (GPLv3) autonomous AI penetration-testing tool: 50 specialist agents, 140+ offensive tools over MCP, and a dedicated LLM-security agent for the OWASP LLM Top 10; runs DAST/pentest in CI on a local (Ollama/llama.cpp) or cloud LLM.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/RanaKhan77/2mny-security-scan">2mny-security-scan</a></td>
+        <td>Free GitHub Action for website security checks in CI: TLS/SSL health, security headers, cookie flags, with a full report.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">Website Vulnerability Scanner</a></td>
+        <td>Open-source website vulnerability scanner: 200 deterministic modules (PHP/Laravel 12), MIT, one-command Docker install.</td>
     </tr>
     <tr>
         <td rowspan="1">Stage 7</td>
