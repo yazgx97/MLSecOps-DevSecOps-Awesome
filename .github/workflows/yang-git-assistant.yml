@@ -1,0 +1,24 @@
+name: Yang Git Assistant (YGA)
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened, reopened]
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
+
+jobs:
+  supervise:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: yang-git-assistant
+        uses: YangYang-Research/yang-git-assistant@v0.2.0
+        with:
+          PROVIDER: yangyang
+          API_KEY: ${{ secrets.YANG_API_TOKEN }}
+          MODEL_NAME: auto
+          GITHUB_TOKEN: ${{ github.token }}

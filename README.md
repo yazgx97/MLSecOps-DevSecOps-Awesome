@@ -203,7 +203,7 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
         <td>Sonatype Nexus Repository</td>
     </tr>
     <tr>
-      <td rowspan="37">DevSecOps</td>
+      <td rowspan="36">DevSecOps</td>
       <td rowspan="3">Stage 1</td>
       <td><a href="https://pre-commit.com/">Pre-Commit Hook Scans</td>
       <td>A framework for managing and maintaining multi-language pre-commit hooks.</td>
@@ -226,7 +226,7 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
         <td>Sonatype Nexus Repository</td>
     </tr>
     <tr>
-        <td rowspan="11">Stage 3</td>
+        <td rowspan="10">Stage 3</td>
         <td><a href="https://gitleaks.io/">Gitleak</a></td>
         <td>Secret scanner for git repositories, files, and directories.</td>
     </tr>
@@ -265,10 +265,6 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
     <tr>
       <td><a href="https://github.com/openpubkey/openpubkey">OpenPubKey</a></td>
       <td>OpenPubkey is a protocol for leveraging OpenID Providers (OPs) to bind identities to public keys.</td>
-    </tr>
-    <tr>
-        <td><a href="https://github.com/YangYang-Research/yang-git-assistant">yang-git-assistant</a></td>
-        <td>GitHub Action AI triage for Issues/PRs: classify, clarify, suggest labels, and note review risks.</td>
     </tr>
     <tr>
         <td rowspan="1">Stage 4</td>
