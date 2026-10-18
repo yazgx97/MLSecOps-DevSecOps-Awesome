@@ -203,7 +203,7 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
         <td>Sonatype Nexus Repository</td>
     </tr>
     <tr>
-      <td rowspan="36">DevSecOps</td>
+      <td rowspan="38">DevSecOps</td>
       <td rowspan="3">Stage 1</td>
       <td><a href="https://pre-commit.com/">Pre-Commit Hook Scans</td>
       <td>A framework for managing and maintaining multi-language pre-commit hooks.</td>
@@ -307,7 +307,7 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
     </tr>
     <tr>
         <td><a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">Website Vulnerability Scanner</a></td>
-        <td>Open-source website vulnerability scanner: 200 deterministic modules (PHP/Laravel 12), MIT, one-command Docker install.</td>
+        <td>Open-source website vulnerability scanner: 200 deterministic modules (PHP/Laravel 12), Apache-2.0, one-command Docker install.</td>
     </tr>
     <tr>
         <td rowspan="1">Stage 7</td>
