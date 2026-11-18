@@ -277,7 +277,7 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
         <td>Docker buildx build.</td>
     </tr>
     <tr>
-        <td rowspan="8">Stage 6</td>
+        <td rowspan="9">Stage 6</td>
         <td><a href="https://docs.snyk.io/scan-using-snyk/snyk-container/scan-container-images">Synk</a></td>
         <td>Snyk Container helps you find and fix vulnerabilities in container images, based on container registry scans.</td>
     </tr>
@@ -308,6 +308,10 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
     <tr>
         <td><a href="https://github.com/RanaKhan77/Website-Vulnerability-Scanner">Website Vulnerability Scanner</a></td>
         <td>Open-source website vulnerability scanner: 200 deterministic modules (PHP/Laravel 12), Apache-2.0, one-command Docker install.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/karlaCastro00/vibelocked-leakcheck-action">VibeLocked LeakCheck Scan</a></td>
+        <td>Free MIT GitHub Action and web scanner for leaked keys in build output, plus a read only live URL check for exposed Supabase tables, .env, .git, and source map files.</td>
     </tr>
     <tr>
         <td rowspan="1">Stage 7</td>
