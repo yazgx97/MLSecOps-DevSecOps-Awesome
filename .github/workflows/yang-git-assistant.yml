@@ -16,9 +16,9 @@ jobs:
     runs-on: ubuntu-24.04
     steps:
       - name: yang-git-assistant
-        uses: YangYang-Research/yang-git-assistant@v0.2.0
+        uses: YangYang-Research/yang-git-assistant@v0.4.1
         with:
           PROVIDER: yangyang
-          API_KEY: ${{ secrets.YANG_API_TOKEN }}
+          API_KEY: ${{ secrets.YANG_API_KEY }}
           MODEL_NAME: auto
           GITHUB_TOKEN: ${{ github.token }}
