@@ -160,6 +160,7 @@ Article analysis for this DSO pipeline 👉 [DevSecOps: A journey to protect you
 | [Vigil](https://github.com/deadbits/vigil-llm) | LLM prompt injection and security scanner. |
 | [Garak](https://github.com/leondz/garak) | LLM vulnerability scanner. |
 | [promptfoo](https://github.com/promptfoo/promptfoo) | LLM red teaming and evaluation framework with adversarial attacks. |
+| [Ironheights](https://github.com/Frank-Masciopinto/ironheights) | Local pre-install scanner for AI agent skills (SKILL.md, bundled scripts, MCP configs): flags prompt injection, credential reads, remote-exec installs and persistence, with SARIF output and a GitHub Action. Rule-based, Apache-2.0. |
 
 #### Stage 8
 
