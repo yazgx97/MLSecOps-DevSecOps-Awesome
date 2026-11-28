@@ -277,7 +277,7 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
         <td>Docker buildx build.</td>
     </tr>
     <tr>
-        <td rowspan="9">Stage 6</td>
+        <td rowspan="10">Stage 6</td>
         <td><a href="https://docs.snyk.io/scan-using-snyk/snyk-container/scan-container-images">Synk</a></td>
         <td>Snyk Container helps you find and fix vulnerabilities in container images, based on container registry scans.</td>
     </tr>
@@ -312,6 +312,10 @@ Article anlysis this DSO pipeline 👉 [DevSecOps: A journey to protect your app
     <tr>
         <td><a href="https://github.com/karlaCastro00/vibelocked-leakcheck-action">VibeLocked LeakCheck Scan</a></td>
         <td>Free MIT GitHub Action and web scanner for leaked keys in build output, plus a read only live URL check for exposed Supabase tables, .env, .git, and source map files.</td>
+    </tr>
+    <tr>
+        <td><a href="https://shipbastion.com/">VibeShield</a></td>
+        <td>Pre-launch web security scanner and MIT CLI (<a href="https://github.com/zColdWater/vibeshield-cli">vibeshield-cli</a>) that inspects live JS bundles against 52 secret patterns, performs read-only Supabase PostgREST RLS &amp; public storage bucket checks, audits 10 Mozilla Observatory security headers, and generates copy-paste SQL/CSP fixes.</td>
     </tr>
     <tr>
         <td rowspan="1">Stage 7</td>
